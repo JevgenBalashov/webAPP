@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 
-// import Footer from './Footer';
 // import Header from './Header';
 import CookieConsentModal from '../Default/CookieModal/Variant1';
 import { cookieModalContent } from '../Default/CookieModal/Variant1/cookies.data';
 
+import Footer from './Footer';
 import * as classes from './styles';
 
 interface Props {
@@ -16,7 +16,7 @@ export default function Layout({ children }: Props) {
     <div css={classes.wrap}>
       {/* <Header /> */}
       <main css={classes.main}>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
       <CookieConsentModal data={cookieModalContent} />
     </div>
   );

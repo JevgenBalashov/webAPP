@@ -9,6 +9,10 @@ export const wrap = css`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: calc(env(safe-area-inset-top, 0px) + 16px) 16px calc(env(safe-area-inset-bottom, 0px) + 16px);
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
 `;
 
 export const main = css`

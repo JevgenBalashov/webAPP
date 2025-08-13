@@ -3,10 +3,7 @@ import { css } from '@emotion/react';
 import { Theme } from '@mui/material';
 
 export const mainWrap = () => css`
-  padding: calc(env(safe-area-inset-top, 0px) + 16px) 16px calc(env(safe-area-inset-bottom, 0px) + 16px);
-  min-height: 100vh;
-  box-sizing: border-box;
-  overflow-x: hidden;
+
 `;
 
 export const topLogoBar = () => css`

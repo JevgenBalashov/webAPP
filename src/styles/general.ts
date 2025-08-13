@@ -64,6 +64,20 @@ export const image = css`
   max-width: 100%;
 `;
 
+export const flexbox = () => css`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const mainTitle = () => css`
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+`;
+
 // TODO: Use custom font by variable
 export const customFont = (theme: Theme) => css`
   ${theme.customFont.style};
