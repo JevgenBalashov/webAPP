@@ -7,6 +7,8 @@ export const footerContent = () => css`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  max-width: 400px;
+  margin: 0 auto;
 `;
 
 export const footerItem = () => css`
